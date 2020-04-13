@@ -146,7 +146,6 @@
     <ClInclude Include="..\..\pixie\font.h" />
     <ClInclude Include="..\..\pixie\imgui.h" />
     <ClInclude Include="..\..\pixie\pixie.h" />
-    <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\pixie\font.cpp" />
