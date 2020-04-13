@@ -13,24 +13,45 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\pixie">
+      <UniqueIdentifier>{c278dc8a-ed2f-4271-b1cf-32141691d4f7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="ReadMe.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="stdafx.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\pixie\core.h">
+      <Filter>Source Files\pixie</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pixie\pixie.h">
+      <Filter>Source Files\pixie</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pixie\font.h">
+      <Filter>Source Files\pixie</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pixie\imgui.h">
+      <Filter>Source Files\pixie</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="stdafx.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="spreep.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\pixie\pixie.cpp">
+      <Filter>Source Files\pixie</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pixie\pixie_win.cpp">
+      <Filter>Source Files\pixie</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pixie\font.cpp">
+      <Filter>Source Files\pixie</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pixie\imgui.cpp">
+      <Filter>Source Files\pixie</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\readme.md" />
   </ItemGroup>
 </Project>
