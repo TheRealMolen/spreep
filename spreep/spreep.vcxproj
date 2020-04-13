@@ -146,12 +146,17 @@
     <ClInclude Include="..\..\pixie\font.h" />
     <ClInclude Include="..\..\pixie\imgui.h" />
     <ClInclude Include="..\..\pixie\pixie.h" />
+    <ClInclude Include="DebugLog.h" />
+    <ClInclude Include="FrameRateManager.h" />
+    <ClInclude Include="types.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\pixie\font.cpp" />
     <ClCompile Include="..\..\pixie\imgui.cpp" />
     <ClCompile Include="..\..\pixie\pixie.cpp" />
     <ClCompile Include="..\..\pixie\pixie_win.cpp" />
+    <ClCompile Include="DebugLog.cpp" />
+    <ClCompile Include="FrameRateManager.cpp" />
     <ClCompile Include="spreep.cpp" />
   </ItemGroup>
   <ItemGroup>

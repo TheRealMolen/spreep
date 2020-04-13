@@ -1,0 +1,6 @@
+Window open, ready to go!
+  -- update fps (59): rendered 59 frames over 1.00715s
+  -- update fps (61): rendered 62 frames over 1.00871s
+  -- update fps (62): rendered 62 frames over 1.00228s
+  -- update fps (62): rendered 62 frames over 1.00235s
+all done
